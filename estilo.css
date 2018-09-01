@@ -1,0 +1,114 @@
+#logo {
+   width: 100px;
+   height: 100px; 
+}
+
+h1, h3 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#parte1 {
+    background-color: lightgrey;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#parte2 {
+    background-color: grey;
+    border-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#ranking {
+    background-color: lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#manual {
+    background-color: grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#contatos{
+    background-color: lightgrey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#busca {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#divbusca {
+    background-color: #2F4F4F;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#txtbusca {
+    padding-top: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    justify-content: center;
+    padding-left: 40%;
+    padding-right: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: orange;
+}
+
+p {
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sociais {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
