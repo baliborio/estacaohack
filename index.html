@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Truth Buzz</title>
 </head>
 <body>
@@ -13,48 +15,89 @@
         <h1>Truth Buzz</h1>
         <h3>Cheque se uma notícia é falsa!</h3>
     </header>
-    
-</body>
-    <section id="parte1">
+
+    <nav>
+    <a class="link" href="">Ranking</a>
+    <a class="link" href="">Manual</a>
+    <a class="link" href="">Pesquisa</a>
+    <a class="link" href="">Sobre nós</a>
+    <a class="link" href="">Contato</a>
+    </nav> 
+        
+        <section id="parte1">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-6 my-auto">
         <h2>O que são fake news?</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat necessitatibus nisi quibusdam, iste debitis laborum aliquid libero delectus illum exercitationem consequatur inventore provident molestias, ratione odio fugit veniam iure! Dignissimos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, qui dolor! Ipsa dolorum consequatur voluptatum sed perferendis molestiae, odio autem non officiis, rerum voluptatibus ullam eos aliquam eaque nihil assumenda.</p>
-    </section>
+        <p>   Como o próprio nome diz, são informações que não representam a realidade, elas são compartilhadas na internet, principalmente por meio de redes sociais como se fossem verídicas, normalmente, o objetivo de uma fake news é criar uma polêmica em torno de uma situação ou pessoa, contribuindo para o denegrimento da sua imagem, como por exeplo com o intuito de "manchar" a reputação de determinado candidato, fazendo com que perca potenciais eleitores, as fake news costumam atrair muita atenção das grandes massas, principalmente quando estas estão desprovidas de senso crítico.  </p></div>        
+        <div class="col-lg-6">
+        <img src="imagens/fake.jpg" alt="fakenews"></div>
+        </div>
+        </div>
+        </section>
 
-    <section id="parte2">
+        <section id="parte2">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-6  order-lg-2 my-auto">
         <h2>Como funciona?</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum accusantium in modi, assumenda labore voluptatibus fuga cum nisi consectetur exercitationem non repudiandae eveniet officia magnam dignissimos ea dolores culpa deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis omnis molestias quos modi, aliquam nam magnam fuga quibusdam ratione expedita non ipsum nihil accusantium accusamus, laborum, repellat aut tempore.</p>
-    </section>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum accusantium in modi, assumenda labore voluptatibus fuga cum nisi consectetur exercitationem non repudiandae eveniet officia magnam dignissimos ea dolores culpa deserunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate corporis omnis molestias quos modi, aliquam nam magnam fuga quibusdam ratione expedita non ipsum nihil accusantium accusamus, laborum, repellat aut tempore.</p></div>
+        <div class="col-lg-6  order-lg-1">
+        <img src="imagens/truth.jpg" alt="fact"></div>
+        </div>
+        </div>
+        </section>
 
-    
-    <section id="pesquisa" class="container">
+    <section id="pesquisa">
+    <h1>Teste o buscador</h1>
+    <button id="botao">Faça seu cadastro!</button>
     <div id="divbusca">
     <input type="text" id="txtbusca" placeholder="Buscar..."/>
     <img id="busca" src="https://www.select-light.com/img/cms/lupa.png" alt="Busca">
+    <button id="meubotao">Busque aqui</button>
     </div>    
     </section>
 
-    <section id="ranking">
-            <h2>Ranking</h2>
-            <ul>
-                <li><a HREF="http://g1.globo.com/mundo/noticia/2012/04/charles-manson-tem-pedido-de-liberdade-condicional-rejeitado.html" TARGET="_blank" > Acesse a True News</a></li>
-                <li><b>1° </b>Charles Manson está prestes a sair em liberdade condicional</li>
-                <li><b>2° </b>Chester Bennington (ex-vocalista do Linkin Park) foi assassinado </li>
-                <li><b>3° </b>Funcionário de necrotério é cremado por engano enquanto tirava um cochilo</li>
-                <li><b>4° </b>Presidente Trump ordena execução de cinco turcos perdoados por Obama</li>
-                <li><b>5° </b>Idosa é acusada de treinar seus 65 gatos para roubar de seus vizinhos</li>
-            </ul>
+    <section id="parte2">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6 my-auto">
+    <h2>Ranking</h2>
+    <ul>
+    <a id="ranking1" HREF="http://g1.globo.com/mundo/noticia/2012/04/charles-manson-tem-pedido-de-liberdade-condicional-rejeitado.html" TARGET="_blank" > Acesse a True News</a><br>
+    <b>1° </b>Charles Manson está prestes a sair em liberdade condicional <br>
+    <b>2° </b>Chester Bennington (ex-vocalista do Linkin Park) foi assassinado <br>
+    <b>3° </b>Funcionário de necrotério é cremado por engano enquanto tirava um cochilo<br>
+    <b>4° </b>Presidente Trump ordena execução de cinco turcos perdoados por Obama<br>
+    <b>5° </b>Idosa é acusada de treinar seus 65 gatos para roubar de seus vizinhos<br>
+    </ul>
+    </div>
+    <div class="col-lg-6">
+    <img src="imagens/ranking.png" alt="ranking"></div>
+    </div>
+    </div>
     </section>
 
     <section id="manual">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6 my-auto order-lg-1">
     <h2>Manual</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate enim aliquam eius unde, odit explicabo exercitationem molestias inventore, accusantium praesentium necessitatibus non expedita. Dicta ex eveniet voluptate molestiae voluptatum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora ad ex quisquam facere, repudiandae ut exercitationem qui nesciunt, in inventore voluptate possimus est voluptas recusandae. Vero facere aliquid quia ad.</p>
+    <p>   Pode parecer difícil identificar fake news, mas seguindo alguns passos básicos fica fácil saber se a informação analisada é verdadeira ou não, como vereficar a fonte, data e autor da notícia,procurar por história completa e ver se os valores morais não são infringidos e por último ver se não há outras fontes de apoio. </p></div>
+    <div class="col-lg-6">
+    <img src="imagens/manual.png" alt="manual"></div>
+    </div>
+    </div>
     </section>
 
     <footer>
-        <img class="sociais redondo" src="Imagens/fb.png" alt="">
-        <img class="sociais redondo" src="Imagens/insta.png" alt="">
-        <img class="sociais redondo" src="Imagens/twitter.png" alt="">
+        <img class="sociais redondo" src="Imagens/fb.png" alt="facebook">
+        <img class="sociais redondo" src="Imagens/insta.png" alt="instagram">
+        <img class="sociais redondo" src="Imagens/twitter.png" alt="twitter">
+        <img class="sociais redondo" src="Imagens/gmail.png" alt="gmail">
     </footer>
 
+
 </body>
+<script defer src="index.js"></script>
 </html>
